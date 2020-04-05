@@ -1,172 +1,205 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Danny Bissell Design</title>
-    <link rel="stylesheet" type="text/css" href="styles.css">
-</head>
-<body>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="hero">
+        <div class="content">
+          <h1>Wow, Amazing</h1>
 
-      
-  <div class="container">
-        <div class="hero">
-          <div class="content">
-            <h1>Wow, Amazing</h1>
-
-
-            <a href="#Introduction" rel="internal" style="color: white">
-            <div class="btn">Get Started</div></a>
-          </div>  
+          <a href="#Introduction" rel="internal" style="color: white;">
+            <div class="btn">Get Started</div></a
+          >
         </div>
+      </div>
+    </div>
+    <div id="about">
+      <div class="aboutDivideR">
+        <section id="Introduction"></section>
+        <img id="headshot" src="img/mustache3.png" />
+        <div id="name">Danny Bissell</div>
+        <div id="tagBig">Problem Solver</div>
+        <div id="tagSmall">Developer</div>
+        <div id="tagSmall">
+          <a href="mailto: daniel.bissell@outlook.com" target="_"
+            >daniel.bissell@outlook.com</a
+          >
         </div>
-        <div id="about">
-           
+        <div id="techLogos">
+          <img src="img/icons/d3.png" alt="d3" class="logo" />
+          <img src="img/icons/heroku.png" alt="heroku" class="logo" />
+          <img src="img/icons/react.png" alt="react" class="logo" />
+          <img src="img/icons/node.png" alt="node" class="logo" />
+          <img src="img/icons/phpBlack.png" alt="php" class="logoSM" />
+        </div>
+      </div>
+    </div>
 
-            <div class="aboutDivideR">
-                <section id="Introduction"> 
-              </section>
-            <img id="headshot" src="img/mustache3.png" />
-            <div id="name">Danny Bissell</div>
-            <div id="tagBig">Problem Solver</div>
-            <div id="tagSmall">Developer</div>
-            <div id="tagSmall"><a href="mailto: daniel.bissell@outlook.com" target="_">daniel.bissell@outlook.com</a></div>
-            <div id="techLogos">
-                <img src="img/icons/d3.png" alt="d3" class="logo">
-                <img src="img/icons/heroku.png" alt="heroku" class="logo"> 
-                <img src="img/icons/react.png" alt="react" class="logo">
-                <img src="img/icons/node.png" alt="node" class="logo">
-                <img src="img/icons/phpBlack.png" alt="php" class="logoSM">
-  
-            </div>
- 
+    <div id="techBox">
+      <div id="tech">
+        <a href="https://www.linkedin.com/in/daniel-bissell/" target="_">
+          <img class="socialIcon" src="img/icons/Linkedin.svg" alt="linkedin"
+        /></a>
+        <a href="https://www.instagram.com/danny.bissell/" target="_"
+          ><img class="socialIcon" src="img/icons/Instagram.svg" alt="linkedin"
+        /></a>
+        <a href="https://github.com/danielbissell" target="_"
+          ><img class="socialIcon" src="img/icons/Github.svg" alt="linkedin"
+        /></a>
+      </div>
+      <div id="story">
+        <div id="tagSmall">
+          A native to the Pacific Northwest, Danny Bissell is an experienced
+          software developer at a tech-startup. Danny has been designing and
+          implementing technical projects and programs for over 10 years. Able
+          to produce stunning applications for cleints.
         </div>
 
+        <ul id="techList">
+          <li class="skill">
+            Creating Amazing Applications With a Clean, Modern Feel
+          </li>
+          <li class="skill">C# | SQL | Javascript | React</li>
+        </ul>
+
+        <div id="storyBtns">
+          <a href="mailto: daniel.bissell@outlook.com" target="_">
+            <button class="storyB">Hire Me</button></a
+          >
+          <a href="#work" rel="internal">
+            <button class="storyB">See More</button></a
+          >
+        </div>
+      </div>
+    </div>
+
+    <div id="title">Work</div>
+    <section id="work"></section>
+    <div id="work">
+      <div class="portfolioItem">
+        <div id="top">
+          <img id="workImg" src="img/usa-edu.png" />
         </div>
 
-        <div id="techBox">
-          <div id="tech">
-   <a href="https://www.linkedin.com/in/daniel-bissell/" target="_"> <img class ="socialIcon"src="img/icons/Linkedin.svg" alt="linkedin"></a>
-   <a href="https://www.instagram.com/danny.bissell/" target="_"><img class ="socialIcon"src="img/icons/Instagram.svg" alt="linkedin"></a> 
-   <a href="https://github.com/danielbissell" target="_"><img class ="socialIcon"src="img/icons/Github.svg" alt="linkedin"></a>
-              
+        <div id="bottom">
+          <a href="https://usa-edu-app-09251.herokuapp.com/" target="_"
+            ><button class="portfolioBtns">Go to App</button></a
+          >
+
+          <div id="tagBig">U.S. Education Data Visualization</div>
+          <div id="tagSmall">
+            A graphical representation of the United State's educational
+            Attainment. Percentage of adults with a bachelor's degree or greater
+            (2010-2014)
           </div>
-          <div id="story">
-              <div id="tagSmall"> A native to the Pacific Northwest, Danny Bissell is an experienced program manager for a tech-startup. Danny has been designing and implementing technical projects and programs for over 10 years. Recently launching a carrier in web development with a focus in JavaScript and React, able to produce stunning applications for clients. 
 
+          <div id="tagBig">Technology</div>
+          <div id="tagSmall">
+            This visualization is built by leveraging Javascript alongside d3.
+            The visualization is designed to be an easy way to represent a
+            complex dataset. Quickly answering the question of counties in the
+            U.S. with the most and least attainment of a bachelor's degree.
+          </div>
+        </div>
+      </div>
 
-                 </div>
-           
-           <ul id="techList">
-             <li class="skill">Creating Amazing Websites With a Clean, Modern Feel</li>
-             <li class="skill">Javascript | Node.js | React</li>
-           </ul>
-
-              <div id="storyBtns">
-                  <a href="mailto: daniel.bissell@outlook.com" target="_"> <button class="storyB">Hire Me</button></a> 
-                  <a href="#work" rel="internal"> <button class="storyB">See More</button></a>  
-              </div>
+      <div class="grayBar"></div>
+      <div class="portfolioItemGray">
+        <div id="top">
+          <img id="workImg" src="img/mm.png" />
         </div>
 
+        <div id="bottom">
+          <a href="https://damp-earth-83160.herokuapp.com/" target="_"
+            ><button class="portfolioBtns">Go to App</button></a
+          >
+
+          <div id="tagBig">Meal Match &copy</div>
+          <div id="tagSmall">
+            An innovative app, suggesting nearby restaurants for two people,
+            based on user preferences.
+          </div>
+
+          <div id="tagBig">Technology</div>
+          <div id="tagSmall">
+            A Node.js application running on Heroku. This app hits the Google
+            Places API, gathering a list of open restaurants nearby. These
+            establishments are displayed to the two users, whereby they will
+            select preferences. A winning restaurant is selected based on user
+            inputted overlap.
+          </div>
+        </div>
+      </div>
+
+      <div class="portfolioItem">
+        <div id="top">
+          <img id="workImg" src="img/travelCalWhiteLarge.png" />
         </div>
 
+        <div id="bottom">
+          <a href="https://geo-travel-calendar-16845.herokuapp.com/" target="_"
+            ><button class="portfolioBtns">Go to App</button></a
+          >
 
+          <div id="tagBig">Team Travels &copy</div>
+          <div id="tagSmall">
+            An enterprise application, allowing a manager to understand who from
+            their team is traveling, and where. Giving managers visibility and
+            insights into their team's coverage and capacity month over month.
+          </div>
 
-        <div id="title">Work</div>
-        <section id="work"> 
-        </section>
-        <div id="work">
-          
-                <div class="portfolioItem">
-
-                  <div id="top">
-                      <img id="workImg" src="img/usa-edu.png" />
-                  </div>
-
-           
-                    <div id="bottom">
-                      <a href="https://usa-edu-app-09251.herokuapp.com/" target="_"><button class="portfolioBtns">Go to App</button></a>
-
-                      <div id="tagBig">U.S. Education Data Visualization</div>  
-                      <div id="tagSmall">A graphical representation of the United State's educational Attainment. Percentage of adults with a bachelor's degree or greater (2010-2014)</div>
-
-                    <div id="tagBig">Technology</div>
-                    <div id="tagSmall">This visualization is built by leveraging Javascript alongside d3. The visualization is designed to be an easy way to represent a complex dataset. Quickly answering the question of counties in the U.S. with the most and least attainment of a bachelor's degree.</div>
-
-                  </div>
-                
-                </div>
-
-                      <div class="grayBar"></div>
-                      <div class="portfolioItemGray">
-
-                          <div id="top">
-                              <img id="workImg" src="img/mm.png"/>
-                          </div>
-        
-                  
-                            <div id="bottom">
-                                <a href="https://damp-earth-83160.herokuapp.com/" target="_"><button class="portfolioBtns">Go to App</button></a>
-        
-                                <div id="tagBig">Meal Match &copy</div>
-                                <div id="tagSmall">An innovative app, suggesting nearby restaurants for two people, based on user preferences.</div>
-  
-                                <div id="tagBig">Technology</div>
-                                <div id="tagSmall">A Node.js application running on Heroku. This app hits the Google Places API, gathering a list of open restaurants nearby. These establishments are displayed to the two users, whereby they will select preferences. A winning restaurant is selected based on user inputted overlap.</div>
-                              </div>
-
-                        </div>
-
-                <div class="portfolioItem">
-
-                  
-
-                    <div id="top">
-                        <img id="workImg" src="img/travelCalWhiteLarge.png"/>
-                    </div>
-  
-              
-                      <div id="bottom">
-                        <a href="https://geo-travel-calendar-16845.herokuapp.com/" target="_"><button class="portfolioBtns">Go to App</button></a>
-  
-                          <div id="tagBig">Team Travels &copy</div>                         
-                        <div id="tagSmall">An enterprise application, allowing a manager to understand who from their team is traveling, and where. Giving managers visibility and insights into their team's coverage and capacity month over month.</div>
-  
-                      <div id="tagBig">Technology</div>
-                      <div id="tagSmall">An elegant mix of Javascript and d3 creates a visual representation of a team's travel schedule. It is simple to see who is in the office and who is out at a customer site. Using the scroll bar allows a manager to see what months of the year individuals are out of the office.</div>
-                    </div>
-                  
-                  </div>
-
-                  <div class="grayBar"></div>
-                  <div class="portfolioItemGray">
-
-                      <div id="top">
-                          <img id="workImg" src="img/calcGray.png" style="margin:0px 0px 0px 15px"/>
-                      </div>
-    
-              
-                        <div id="bottom">
-                            <a href="https://codepen.io/d_biz/full/WWEgzL" target="_"><button class="portfolioBtns">Go to App</button></a>
-    
-                            <div id="tagBig">React Calculator</div>                               
-                          <div id="tagSmall">A classic calculator, designed for both from and function.</div>
-    
-                        <div id="tagBig">Technology</div>
-                        <div id="tagSmall">An application utilizing React deployed on CodePen for ease of use and sharing.</div>
-                      </div>
-                    
-                    </div>                  
-
-
+          <div id="tagBig">Technology</div>
+          <div id="tagSmall">
+            An elegant mix of Javascript and d3 creates a visual representation
+            of a team's travel schedule. It is simple to see who is in the
+            office and who is out at a customer site. Using the scroll bar
+            allows a manager to see what months of the year individuals are out
+            of the office.
+          </div>
         </div>
-        <div id="footer">
-            <div id="tagBig">Connect with Danny</div>                               
-            <div id="tagSmall"><a href="mailto: daniel.bissell@outlook.com" target="_">daniel.bissell@outlook.com</a></div>
+      </div>
 
-
+      <div class="grayBar"></div>
+      <div class="portfolioItemGray">
+        <div id="top">
+          <img
+            id="workImg"
+            src="img/calcGray.png"
+            style="margin: 0px 0px 0px 15px;"
+          />
         </div>
 
-</body>
+        <div id="bottom">
+          <a href="https://codepen.io/d_biz/full/WWEgzL" target="_"
+            ><button class="portfolioBtns">Go to App</button></a
+          >
+
+          <div id="tagBig">React Calculator</div>
+          <div id="tagSmall">
+            A classic calculator, designed for both from and function.
+          </div>
+
+          <div id="tagBig">Technology</div>
+          <div id="tagSmall">
+            An application utilizing React deployed on CodePen for ease of use
+            and sharing.
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="footer">
+      <div id="tagBig">Connect with Danny</div>
+      <div id="tagSmall">
+        <a href="mailto: daniel.bissell@outlook.com" target="_"
+          >daniel.bissell@outlook.com</a
+        >
+      </div>
+    </div>
+  </body>
 </html>
