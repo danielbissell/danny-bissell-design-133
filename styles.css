@@ -1,50 +1,49 @@
 main {
-    min-width: 0;
-    scroll-behavior: smooth;
+  min-width: 0;
+  scroll-behavior: smooth;
 }
-html, body {
+html,
+body {
   width: 100%;
   height: 100%;
   margin: 0;
   padding: 0;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 18px;
   min-width: 0;
   scroll-behavior: smooth;
 }
-h1{
-
+h1 {
 }
 
 .container {
-    width: 100%;
-    height: 100%;
-    margin: auto;
-    background-image: url('img/seattleCover.jpg');
-    display: table;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  background-image: url("img/seattleCover.jpg");
+  display: table;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
-.hero  {
-    height: 100%;
-    width: 100%;
-    vertical-align: middle;
-    display: table-cell;
-    text-align: center;
-
+.hero {
+  height: 100%;
+  width: 100%;
+  vertical-align: middle;
+  display: table-cell;
+  text-align: center;
 }
 .content {
-    margin: 0 auto;
-    max-width: 500px;
-    text-align: center;
-    text-shadow: 0px 0px 100px #000;
-    color: #F5F5F5;
- font-size: 150%;
+  margin: 0 auto;
+  max-width: 500px;
+  text-align: center;
+  text-shadow: 0px 0px 100px #000;
+  color: #f5f5f5;
+  font-size: 150%;
 }
-.btn{
+.btn {
   border-radius: 10px;
   border: solid 1.5px;
   max-width: 200px;
@@ -52,269 +51,257 @@ h1{
 }
 .btn:hover {
   color: lightblue;
-  }
-
+}
 
 .text {
   margin: 10px;
   line-height: 26pt;
 }
 
-.aboutDivideR{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin: 50px auto;
-    width: 80%;
+.aboutDivideR {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 50px auto;
+  width: 80%;
 }
-#name{
-    font-size: 200%;
-    font-weight: 100;
-    margin: 10px 0px 15px 0px;
+#name {
+  font-size: 200%;
+  font-weight: 100;
+  margin: 10px 0px 15px 0px;
 }
-#tagBig{
-    font-size: 100%;
-    font-weight: 100;
-    margin: 0px 0px 10px 0px;
+#tagBig {
+  font-size: 100%;
+  font-weight: 100;
+  margin: 0px 0px 10px 0px;
 }
-#tagSmall{
-    font-size: 80%;
-    font-weight: 100;
-    margin: 0px 0px 10px 0px;
-}
-
-#about{
-    display: flex;
-    flex-direction: column;
-
-    align-items: center;
-
-    width: 100%;
-    height: 490px;
-
-}
-#headshot{
-    height: 200px;
-    width: 200px;
-    border-radius: 100%;
-    padding: 0px;
-}
-#techBox{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    background-color: lightgray;
-    background: linear-gradient(180deg, lightgray 70%, white);
-    height: 300px;
-    grid-template-areas: "tech story"
-}
-#tech{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-self: center;
-    text-align: center;
-    margin: 50px;
-    height:80%
-}
-.socialIcon{
-    height: 50px ;
-    width: 70px;
-    align-self: center;
-}
-#story{
-    align-self: center;
-    text-align: left;
-    margin: 10px;
-
-}
-#storyBtns{
-    text-align: center;
-}
-.logo{
-    height: 50px;
-    width: 100px;
-}
-.logoSM{
-    height: 35px;
-    width: 70px;
-}
-#techLogos{
-    text-align: center
-}
-.storyB{
-
-    width: 80px;
-    height: 20px;
-    margin: 3px auto !important;
-    background-color: rgb(240, 225, 100); /* gold */
-}
-#work{
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    justify-content: center;
-}
-#title{
-    text-align: center; 
-    font-size: 170%;
-    font-weight: 100;
-    margin: 10px 0px 15px 0px;
+#tagSmall {
+  font-size: 80%;
+  font-weight: 100;
+  margin: 0px 0px 10px 0px;
 }
 
-.portfolioItem{
+#about {
+  display: flex;
+  flex-direction: column;
 
-    margin: 20px 0px 40px 0px;
-    display: grid;
-    grid-gap: 4px;
-    grid-template-columns: auto;
-    grid-template-rows: minmax(1, 3fr) auto;
+  align-items: center;
+
+  width: 100%;
+  height: 490px;
+}
+#headshot {
+  height: 200px;
+  width: 200px;
+  border-radius: 100%;
+  padding: 0px;
+}
+#techBox {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: lightgray;
+  background: linear-gradient(180deg, lightgray 70%, white);
+  height: 300px;
+  grid-template-areas: "tech story";
+}
+#tech {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-self: center;
+  text-align: center;
+  margin: 50px;
+  height: 80%;
+}
+.socialIcon {
+  height: 50px;
+  width: 70px;
+  align-self: center;
+}
+#story {
+  align-self: center;
+  text-align: left;
+  margin: 10px;
+}
+#storyBtns {
+  text-align: center;
+}
+.logo {
+  height: 45px;
+  width: 100px;
+}
+.logo2 {
+  height: 40px;
+  width: 40px;
+}
+.logoLG {
+  height: 100px;
+  width: 120px;
+}
+.logoSM {
+  height: 30px;
+  width: 70px;
+}
+#techLogos {
+  text-align: center;
+}
+.storyB {
+  width: 80px;
+  height: 20px;
+  margin: 3px auto !important;
+  background-color: rgb(240, 225, 100); /* gold */
+}
+#work {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+}
+#title {
+  text-align: center;
+  font-size: 170%;
+  font-weight: 100;
+  margin: 10px 0px 15px 0px;
 }
 
-.grayBar{
-    margin: 5px 0px 0px 0px;
-    height: 20px;
-    background-color: lightgray;
-    background: linear-gradient(180deg, white 25%, lightgray);
+.portfolioItem {
+  margin: 20px 0px 40px 0px;
+  display: grid;
+  grid-gap: 4px;
+  grid-template-columns: auto;
+  grid-template-rows: minmax(1, 3fr) auto;
 }
-.portfolioItemGray{
-    margin: 0px 0px 20px 0px;
-    display: grid;
- 
-    grid-gap: 4px;
-    grid-template-rows: minmax(1, 3fr) auto;
-    grid-template-columns: auto;
-    background-color: lightgray;
-    background: linear-gradient(180deg, lightgray 70%, white);
-    }
 
-#top{
-    margin: 30px 0px 10px 0px;
-    justify-self: center;
-    text-align: center;
-    width: 90%;
+.grayBar {
+  margin: 5px 0px 0px 0px;
+  height: 20px;
+  background-color: lightgray;
+  background: linear-gradient(180deg, white 25%, lightgray);
+}
+.portfolioItemGray {
+  margin: 0px 0px 20px 0px;
+  display: grid;
 
+  grid-gap: 4px;
+  grid-template-rows: minmax(1, 3fr) auto;
+  grid-template-columns: auto;
+  background-color: lightgray;
+  background: linear-gradient(180deg, lightgray 70%, white);
 }
-#bottom{
 
-    justify-self: center;
-    text-align: left;
-    width: 80%;
+#top {
+  margin: 30px 0px 10px 0px;
+  justify-self: center;
+  text-align: center;
+  width: 90%;
 }
-.portfolioBtns{
-    display: block;
-    width: 120px;
-    height: 20px;
-    margin: 3px auto !important;
-    background-color: rgb(240, 225, 100); /* gold */
-   /*background-color: rgb(133, 160, 200); /* blue */
-
-
+#bottom {
+  justify-self: center;
+  text-align: left;
+  width: 80%;
 }
-#workImg{
-    max-height: 350px;
-    min-height: 280px;
-    max-width: 100%;
-    border-radius: 10px;
-} 
-.appDesc{
-    font-size: 90%;
-    font-weight: 100;
-    margin: 0px 0px 10px 0px;
+.portfolioBtns {
+  display: block;
+  width: 120px;
+  height: 20px;
+  margin: 3px auto !important;
+  background-color: rgb(240, 225, 100); /* gold */
+  /*background-color: rgb(133, 160, 200); /* blue */
 }
-#footer{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin: 50px auto;
-    width: 80%;
+#workImg {
+  max-height: 350px;
+  min-height: 280px;
+  max-width: 100%;
+  border-radius: 10px;
 }
-#techList{
-    text-align: center;
+.appDesc {
+  font-size: 90%;
+  font-weight: 100;
+  margin: 0px 0px 10px 0px;
 }
-li{
-    padding: 5px;
+#footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 50px auto;
+  width: 80%;
+}
+#techList {
+  text-align: center;
+}
+li {
+  padding: 5px;
 }
 #item:hover {
-    transform: scale(.90)/;.lbnjexz3@KJTRfu4i;
-     transition: transform .25s ease;
-   
-     }
-
-      @media all and (max-width:500px){
-        .text {
-            line-height: 16pt;
-        }
-        .content {
-       font-size: 90%;
-      }
-        .btn{
-                max-width: 100px;
-        }
-
-      }
-
-ul{
-    list-style-type: none;
-    font-size: 80%;
-    font-weight: 100;
+  transform: scale(0.9) /;
+  .lbnjexz3@KJTRfu4i;
+  transition: transform 0.25s ease;
 }
-a:hover{
-    text-decoration: underline;
-}
-a:link {
-    text-decoration: blue;
-  }
-  a:visited {
-    text-decoration: blue;
-  }
 
-  @media only screen 
-and (min-device-width : 375px) 
-    and (max-device-width : 667px) {
-        .text {
-      line-height: 16pt;
+@media all and (max-width: 500px) {
+  .text {
+    line-height: 16pt;
   }
   .content {
- font-size: 90%;
-}
-  .btn{
-          max-width: 100px;
+    font-size: 90%;
   }
-  #techBox{
-      height: auto
+  .btn {
+    max-width: 100px;
   }
-  
-}
-@media only screen and (max-width : 800px) {
-    #bottom{
-        width: 90%;
-    }
-
-    #bottom{
-   
-    }
-    .portfolioItem{
-        max-height: auto;
-
-    }
-    .portfolioItemGray{
-        max-height: auto;
-
-    }
-    #techBox{
-        height: auto;
-        grid-template-columns: 1fr 3fr;
-
-    }
-    #headshot{
-        height: 150px;
-        width: 150px;
-        border-radius: 100%;
-        padding: 5px;
-    }
-    
 }
 
-      
+ul {
+  list-style-type: none;
+  font-size: 80%;
+  font-weight: 100;
+}
+a:hover {
+  text-decoration: underline;
+}
+a:link {
+  text-decoration: blue;
+}
+a:visited {
+  text-decoration: blue;
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) {
+  .text {
+    line-height: 16pt;
+  }
+  .content {
+    font-size: 90%;
+  }
+  .btn {
+    max-width: 100px;
+  }
+  #techBox {
+    height: auto;
+  }
+}
+@media only screen and (max-width: 800px) {
+  #bottom {
+    width: 90%;
+  }
+
+  #bottom {
+  }
+  .portfolioItem {
+    max-height: auto;
+  }
+  .portfolioItemGray {
+    max-height: auto;
+  }
+  #techBox {
+    height: auto;
+    grid-template-columns: 1fr 3fr;
+  }
+  #headshot {
+    height: 150px;
+    width: 150px;
+    border-radius: 100%;
+    padding: 5px;
+  }
+}
