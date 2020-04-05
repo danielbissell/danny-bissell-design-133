@@ -235,8 +235,7 @@ li {
   padding: 5px;
 }
 #item:hover {
-  transform: scale(0.9) /;
-  .lbnjexz3@KJTRfu4i;
+  transform: scale(0.9);
   transition: transform 0.25s ease;
 }
 
